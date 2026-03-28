@@ -32,6 +32,11 @@ export default async function RootLayout({
 
   return (
     <html lang="nl">
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#111112" />
+        <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased bg-[#f5f5f6] text-[#111112]`}
       >
